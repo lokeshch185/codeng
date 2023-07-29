@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>    
+        <title>
+            ok
+        </title>
+        <link rel="icon" type="image/jpg" href="img1.jpg">
+        <style>
+            body {background-color: rgb(255, 255, 255);}
+            p {text-align: center;}
+            table,td,tr {border: 20px solid red;border-collapse: collapse ;}
+           .city {background-color: aqua;}
+            #he {background-color: blue; text-align: center;color: blanchedalmond;} 
+       </style> <!--YOU CAN ALSO DO PERSONAL ELEMENT STYLE LIKE FOR P1 , #id is used to refer to the element-->
+    </head>
+
+    <body>
+        <p style="border: 2px solid red; padding: 50px;margin: 50px;" >hi</p> <!--this is for para mistakes are ignored-->
+        <a href="main.html" target="_blank">get lost</a>  <!--a is for hyperlink anthing between it will be link. img vieo.., target is for where to open new page-->
+       <BR>
+        <p1 style="background-color: aquamarine;color: rgb(106, 165, 42);font-style: italic;font-family:'Times New Roman', Times, serif;font-size: 500%;border: 200px rgb(11, 11, 11);"><!--any change to lok comes in style-->
+        hello
+        <br> <!--new line-->
+        </p1>
+        <br>
+        <img title="img1" src="img1.jpg" height="100" width="100" style="float: left;" usemap="map1"> <!--img for imamge , src for source, tilte to give info when hovered over it
+                                                                    alt for alternate text , style float for text beside image-->
+        <img src="img2.jpg" height="100" width="100" alt="fuck you">
+        <br>
+        <a href="#he">go the heee</a> <!--it is bookmark, take you to id element-->
+        <map name="map1"><area shape="rect"
+        coords="0,0,100,100" href="main.html"></map>
+        <P> <!--case insensative p is P-->
+            this is not good. <strong>really not good</strong><mark>marke it</mark>
+            it is <small>small</small>. <abbr style="font-family: Georgia, 'Times New Roman', Times, serif;" title="suck off">SO</abbr> 
+        </P>
+        <br>
+        <button onclick="document.location='img1.jpg' ">click me</button> <!--button, onclick attribute tell what to do,document.location tells adress-->
+        <button onclick="window.open('main.html')" >hii</button>
+        <br>
+        <br>
+        <table > <!--table , tr for row, td for table data ie colum,th is header -->
+            <tr border = "2px">
+                <th>p1</th>
+                <th>p2</th>
+                
+            </tr>
+            <tr>
+                <td>ok</td>
+                <td>now
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <ul>
+            <li>land</li>
+            <li>earth</li>
+        </ul>
+        <ol>
+            <li>land</li>
+            <li>earth</li>
+        </ol>
+        <!--ol ordered list,ul unodered list(bullet),li list item-->
+    
+        <p class="city">heee</p>
+        <p id="he">heee</p>
+        <br>
+        <iframe src="main.html" height="200" width="100" name="try"></iframe>
+        <a href="img1.jpg" target="try">iframe</a>
+    </body>
+</body>
+</html>
